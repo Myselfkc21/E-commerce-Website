@@ -12,7 +12,7 @@ const ProductItem = ({ id, image, name, price }) => {
             alt=""
           />
         </div>
-        <p className="text-xs font-sans text-nowrap">{name}</p>
+        <p className="text-xs font-sans text-wrap">{name}</p>
         <p className="font-medium ">${price}</p>
       </div>
     </Link>

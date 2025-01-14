@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Orders from "./pages/Orders";
 import NavBar from "./components/NavBar";
 import Cart from "./pages/Cart";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +29,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/place-order" element={<Orders />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

@@ -5,9 +5,9 @@ const NavBar = () => {
   const [MenuVisible, SetMenuVisible] = useState(false);
   return (
     <div className="flex items-center justify-between py-5 font-medium">
-      <div className="w-36">
+      <Link to={"/"} className="w-36">
         <img src={assets.logo} alt="" className="w-full" />
-      </div>
+      </Link>
       <ul className="hidden sm:flex gap-5 text-sm text-grey-700">
         <NavLink to="/" className="flex flex-col items-center gap-1 ">
           <p>HOME</p>

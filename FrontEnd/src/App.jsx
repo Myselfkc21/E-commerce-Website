@@ -12,6 +12,7 @@ import Orders from "./pages/Orders";
 import NavBar from "./components/NavBar";
 import Cart from "./pages/Cart";
 import Footer from "./components/Footer";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
       <NavBar></NavBar>
+      <SearchBar></SearchBar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collection" element={<Collections />} />

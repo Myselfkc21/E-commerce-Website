@@ -13,7 +13,7 @@ import NavBar from "./components/NavBar";
 import Cart from "./pages/Cart";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
-
+import Contacts from "./pages/Contacts";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -25,7 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/collection" element={<Collections />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contacts />} />
         <Route path="/product/:productId" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
